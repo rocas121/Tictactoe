@@ -1,12 +1,35 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rzhang\\Desktop\\repos\\Tic-Tac-Toe\\TicTacToer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4045BA7-2670-496E-AB98-578067F79BEF}|TicTacToer\\TicTacToer.vcxproj|C:\\Users\\rzhang\\Desktop\\Atsui.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Atsui.ico - Icon [256x256, 32\u00A0bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\rzhang\\Desktop\\Atsui.ico",
+              "RelativeDocumentMoniker": "..\\..\\..\\Atsui.ico",
+              "ToolTip": "C:\\Users\\rzhang\\Desktop\\Atsui.ico - Icon [256x256, 32\u00A0bits, BMP]",
+              "RelativeToolTip": "..\\..\\..\\Atsui.ico - Icon [256x256, 32\u00A0bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-12-02T14:54:08.39Z",
+              "EditorCaption": " - Icon [256x256, 32\u00A0bits, BMP]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
