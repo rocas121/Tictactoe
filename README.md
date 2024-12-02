@@ -1,2 +1,2 @@
-#This is a TicTacToe\n
+#This is a TicTacToe<br/>
 ![Hoshino](Hoshino.jpg)
