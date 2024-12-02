@@ -3,6 +3,7 @@
 
 #include <map>
 using namespace std;
+
 vector<string>;
 vector<int>;
 
@@ -10,7 +11,7 @@ vector<int>;
 char board[3][3] = {{ ' ',' ',' ' },
                     { ' ',' ',' ' },
                     { ' ',' ',' ' }};
-char player = 'X';
+char player = 'X'; 
 string winnertxt = "  ----winner----";
 
 void display() {

@@ -130,14 +130,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\Hoshino.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="TicTacToer1.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Atsui.ico" />
+    <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

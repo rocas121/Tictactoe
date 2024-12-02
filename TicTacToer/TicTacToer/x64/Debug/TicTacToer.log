@@ -1,2 +1,4 @@
-﻿  LINK : C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\x64\Debug\TicTacToer.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+﻿  main.cpp
+C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(7,1): warning C4091: '' : ignoré à gauche de 'std::vector<std::string,std::allocator<std::string>>' quand aucune variable n'est déclarée
+C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(8,1): warning C4091: '' : ignoré à gauche de 'std::vector<int,std::allocator<int>>' quand aucune variable n'est déclarée
   TicTacToer.vcxproj -> C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\x64\Debug\TicTacToer.exe
