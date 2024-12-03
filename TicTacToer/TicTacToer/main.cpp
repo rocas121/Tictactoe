@@ -7,7 +7,7 @@ using namespace std;
 vector<string>;
 vector<int>;
 
-//COOKING
+//Initiating 
 char board[3][3] = {{ ' ',' ',' ' },
                     { ' ',' ',' ' },
                     { ' ',' ',' ' }};
