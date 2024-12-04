@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
 
+#include <chrono>
+#include <thread>
+
 #include <map>
 using namespace std;
+using namespace std::this_thread; // sleep_for, sleep_until
+using namespace std::chrono; // nanoseconds, system_clock, seconds
 
 vector<string>;
 vector<int>;
@@ -11,8 +16,14 @@ vector<int>;
 char board[3][3] = {{ ' ',' ',' ' },
                     { ' ',' ',' ' },
                     { ' ',' ',' ' }};
+
+
+bool ingame = true;
+
+
+char empty = ' ';
 char player = 'X'; 
-string winnertxt = "  ----winner----";
+string winnertxt = "\n   ----winner----";
 
 void display() {
 
@@ -82,10 +93,12 @@ void win(bool& playing, char player) {
             if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
                 cout << winnertxt;
                 playing = false;
+                sleep_for(seconds(3));
                 return;
             }else if (board[0][i] == player && board[1][i] == player && board[2][i] == player) {
-                cout << "Winner\n";
+                cout << winnertxt;
                 playing = false;
+                sleep_for(seconds(3));
                 return;
             }
 
@@ -94,37 +107,58 @@ void win(bool& playing, char player) {
         //diagonals
 
         if (board[0][0] == player && board[1][1] == player && board[2][2] == player) {
-            cout << "Winner\n";
+            cout << winnertxt;
             playing = false;
+            sleep_for(seconds(3));
 
         }else if (board[0][2] == player && board[1][1] == player && board[2][0] == player) {
-            cout << "Winner\n";
+            cout << winnertxt;
             playing = false;
+            sleep_for(seconds(3));
         }
     
 }
 
-void play() {
-    bool ingame = true;
+void redo(bool play) {
+    char answer;
+    cout << "\n-redo? Y/N : ";
+    cin >> answer;
 
-    char choice1;
-    int choice2;
+    play == true;
+    cout << " DONE \n";
+    if (answer == 'y' || answer == 'Y') {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                board[i][j] = ' ';
+            }
+
+
+        }
+        
+
+    }
+
+}
+void play() {
+
+
     map<char, int> Choice;
 
-
+       
        while (ingame == true){
-
-            
             display();
             win(ingame, player);
-
             if (ingame == true) {
+
+                char choice1;
+                int choice2;
+
                 cout << "\n-Your turn: ";
                 cin >> choice1 >> choice2;
                 Choice[choice1] = choice2;
+                write(Choice);
             }
-            write(Choice);
-            
+
 
        }
 
@@ -134,6 +168,5 @@ void play() {
 int main(){
 
     play();
-
     return 0;
 }

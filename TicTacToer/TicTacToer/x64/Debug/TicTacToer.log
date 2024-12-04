@@ -1,4 +1,5 @@
 ﻿  main.cpp
-C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(7,1): warning C4091: '' : ignoré à gauche de 'std::vector<std::string,std::allocator<std::string>>' quand aucune variable n'est déclarée
-C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(8,1): warning C4091: '' : ignoré à gauche de 'std::vector<int,std::allocator<int>>' quand aucune variable n'est déclarée
+C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(12,15): warning C4091: '' : ignoré à gauche de 'std::vector<std::string,std::allocator<std::string>>' quand aucune variable n'est déclarée
+C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(13,12): warning C4091: '' : ignoré à gauche de 'std::vector<int,std::allocator<int>>' quand aucune variable n'est déclarée
+C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\TicTacToer\main.cpp(127,10): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
   TicTacToer.vcxproj -> C:\Users\rzhang\Desktop\repos\Tic-Tac-Toe\TicTacToer\x64\Debug\TicTacToer.exe
